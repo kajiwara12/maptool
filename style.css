@@ -1,0 +1,70 @@
+#top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+#map {
+  height: 190px;
+  width: 800px;
+  align-self: center;
+}
+.title {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  align-items: center;
+}
+body {
+  background-image: url(https://www.journeyera.com/wp-content/uploads/2016/07/hawaii-images-08316-1.jpg);
+}
+#container {
+  display: flex;
+  flex-direction: row;
+}
+#brew {
+  height: 500px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: palegoldenrod;
+  border-radius: 25px;
+  opacity: 0.91;
+}
+#brewMap {
+  height: 400px;
+  width: 600px;
+  opacity: 1;
+}
+#food {
+  height: 500px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: floralwhite;
+  border-radius: 25px;
+  opacity: 0.91;
+}
+#foodMap {
+  height: 400px;
+  width: 600px;
+}
+/* #shop {
+  height: 375px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(163, 150, 95);
+  border-radius: 25px;
+}
+#shopMap {
+  height: 300px;
+  width: 400px;
+} */

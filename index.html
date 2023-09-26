@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Project to Learn Libraries</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script defer src="javascript.js"></script>
+  </head>
+  <body>
+    <div id="top">
+      <h1 class="title">
+        Check out these maps of Oahu and some of my favorite places!
+      </h1>
+      <div id="map"></div>
+    </div>
+    <div id="container">
+      <div id="brew">
+        <h3>Favorite Breweries in Honolulu</h3>
+        <div id="brewMap"></div>
+        <p>
+            <a href="https://alohabeer.com/" target="_blank">
+              *Aloha Beer Co (21.30112288998919° N, 157.85678154874634° W)
+            </a>
+            </br>
+            <a href="https://www.waikikibrewing.com/location/waikiki-brewing-kaka-ako/" target="_blank">
+              *Waikiki Brewing Kaka'ako (21.299373600569943° N, 157.8560534659442° W)
+            </a>
+            </br>
+            <a href="https://www.honolulubeerworks.com/" target="_blank">
+            *Honolulu Beerworks (21.29726931495233° N, 157.86047309292726° W)</a>
+        </p>
+      </div>
+      <div id="food">
+        <h3>Favorite Restaurants</h3>
+        <div id="foodMap"></div>
+        <p>
+            <a href="https://www.yelp.com/biz/yanagi-sushi-honolulu" target="_blank">
+              *Yanagi Sushi (21.301768185953282° N, 157.85374318094904° W)
+            </a>
+            </br>
+            <a href="https://www.yelp.com/biz/tonkatsu-tamafuji-honolulu-9" target="_blank">
+              *Tonkatsu Tamafuji (21.275179928810015° N, 157.81543729292824° W)
+            </a>
+            </br>
+            <a href="https://www.yelp.com/biz/istanbul-hawaii-honolulu-5" target="_blank">
+            *Istanbul Hawaii (21.294477918181663° N, 157.8521227371082° W)</a>
+            </br> 
+            <a href="https://www.yelp.com/biz/noods-ramen-bar-honolulu?osq=noods" target="_blank">
+            *Noods Ramen Bar (21.282576120585432° N, -157.7984908910748° W)</a>
+        </p>
+      </div>
+      <!-- <div id="shop">
+        <h3>Favorite Shops</h3>
+        <div id="shopMap"></div>
+      </div> -->
+    </div>
+  </body>
+</html>
